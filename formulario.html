@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - ¡Que comience el juego!</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+    <body id="formulario-body">
+        <p id="titulo-formulario">Breaking Bad - ¡Que comience el juego!</p>
+
+<form name="datos" method="post" action="mailto:raul.rodriguez@proeducaglobal.com" enctype="text/plain">
+
+<fieldset>
+
+    <legend>Datos personales</legend>
+    <label>Nombre:</label> 
+    <br>
+    <input type="text" placeholder="Introduce tu nombre" required> 
+    <br> 
+    <label>Apellidos:</label>
+    <br>
+     <input type="text" placeholder="Introduce tus apellidos" required>
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Dirección Postal</legend>
+        <label>Calle:</label> <input type="text" placeholder="ej. Calle Aragón">
+        &nbsp;&nbsp;&nbsp;<label>Número:</label> <input type="number" placeholder="ej. 123">
+        <br>
+        <br>
+        <label>Piso:</label> <input type="text" placeholder="ej. 1B">
+        <br>
+        <br>
+        <label>Código Postal:</label> <input type="number" placeholder="ej. 07882">
+        &nbsp;&nbsp;&nbsp;<label>Ciudad:</label> <input type="text" placeholder="ej. Tarragona">
+    </fieldset>
+
+    <br>
+    <label>DNI:</label>
+    <br>
+    <input type="number" placeholder="ej. 41556755Ñ">
+    <br>
+    <br>
+    <label>Correo electrónico:</label>
+    <br>
+    <input type="email" placeholder="ej. eladio@zafiroañejo.com" required>
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Sexo:</legend>
+        <label>Hombre</label> <input type="radio" name="sexo"> &nbsp;&nbsp;&nbsp; <label>Mujer</label> <input type="radio" name="sexo">  
+    </fieldset>
+
+    <br>
+<label>Fecha de nacimiento:</label>
+<br>
+<input type="date" value="2000-06-01"> 
+<br>
+<br>
+<label>Selecciona uno:</label>
+<br>
+<select name="personajes">
+    <option value="">Jessie Pinkman</option>
+    <option value="">Walter White</option>
+    <option value="">Saul Goodman</option>
+    <option value="">Gustavo Fring</option>
+    <option value="">Pollos Hermanos</option>
+    <option value="">Otros Personajes</option>
+</select>
+<br>
+<br>
+Comentarios:
+<br>
+<textarea cols="60" rows="5" placeholder="Déjanos un comentario"></textarea>
+<br>
+<input type="submit" value="Enviar">&nbsp;&nbsp;&nbsp;<input type="reset" value="Borrar"> 
+<br>
+<br>
+¡Envíanos tu imagen de Breaking Bad!
+<br>
+<br>
+<input type="file">
+
+
+</fieldset>
+</form>
+    </body>
+</html>

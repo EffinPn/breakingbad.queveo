@@ -1,0 +1,143 @@
+@font-face {
+    font-family: brkngbd;
+    src: url(../font/Breaking\ Bad.ttf);
+}
+
+
+#tablaperiod-body{
+    background-color: #0c3e11;
+    text-align: center;
+    
+}
+#logo{
+    width:200px; 
+    height: 200px;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+#skyler-pesada{
+    color: white;
+    font-size: 40px;
+    
+}
+
+#indice{
+    font-family: brkngbd;
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#formulario-body{
+    font-family: Helvetica;
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#titulo-formulario{
+    color: tomato;
+    font-weight:  bold;
+    font-size: 45px;
+    text-shadow: 3px 3px 0px rgb(20, 66, 8);
+    text-decoration: underline solid bisque;
+}
+
+textarea{
+    resize: none;
+}
+
+fieldset{
+
+    text-align: left;
+    font-size: 14px;
+    color: bisque;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: tomato;
+    background-color: rgba(12, 62, 17, 0.5);
+    
+}
+
+fieldset fieldset{
+
+    margin-left: 0%;
+    padding-left: 2%;
+    margin-right: 20%;
+
+}
+
+legend{
+    text-align: left;
+    color: bisque;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+table{
+    
+    background-color: #2b2c24;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px;
+    border-style: solid;
+    border-color: #343530;
+    border-width: 2px;
+}
+
+td{
+    padding: 0px;
+    color: #343530;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    width: 70px;
+    height: 60px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: #2b2c24;
+}
+
+.amarillento{
+    background-color: #c2c629;
+}
+
+.subtexto{
+    font-size: 10px;
+}
+
+.lima{
+    background-color: #b8da1d;
+}
+.pastel{
+    background-color: #d7e88c;
+}
+.casiblanco{
+    background-color: #eff6c8;
+}
+.oliva{
+    background-color: #89a419;
+}
+.militar{
+    background-color: #637126;
+}
+.desierto{
+    background-color: #bcc49f;
+}
+.pantano{
+    background-color: #838e53;
+}
